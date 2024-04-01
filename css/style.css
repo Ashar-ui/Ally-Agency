@@ -1,0 +1,1242 @@
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-ThinItalic.woff2") format('woff2'), url("../fonts/Raleway-ThinItalic.woff") format('woff');
+        font-weight: 100;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Thin.woff2") format('woff2'), url("../fonts/Raleway-Thin.woff") format('woff');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-BoldItalic.woff2") format('woff2'), url("../fonts/Raleway-BoldItalic.woff") format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Bold.woff2") format('woff2'), url("../fonts/Raleway-Bold.woff") format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-ExtraBoldItalic.woff2") format('woff2'), url("../fonts/Raleway-ExtraBoldItalic.woff") format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-BlackItalic.woff2") format('woff2'), url("../fonts/Raleway-BlackItalic.woff") format('woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-ExtraBold.woff2") format('woff2'), url("../fonts/Raleway-ExtraBold.woff") format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Black.woff2") format('woff2'), url("../fonts/Raleway-Black.woff") format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Italic.woff2") format('woff2'), url("../fonts/Raleway-Italic.woff") format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-SemiBold.woff2") format('woff2'), url("../fonts/Raleway-SemiBold.woff") format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-ExtraLight.woff2") format('woff2'), url("../fonts/Raleway-ExtraLight.woff") format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-LightItalic.woff2") format('woff2'), url("../fonts/Raleway-LightItalic.woff") format('woff');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Regular.woff2") format('woff2'), url("../fonts/Raleway-Regular.woff") format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Medium.woff2") format('woff2'), url("../fonts/Raleway-Medium.woff") format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-MediumItalic.woff2") format('woff2'), url("../fonts/Raleway-MediumItalic.woff") format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-ExtraLightItalic.woff2") format('woff2'), url("../fonts/Raleway-ExtraLightItalic.woff") format('woff');
+        font-weight: 200;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Light.woff2") format('woff2'), url("../fonts/Raleway-Light.woff") format('woff');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-SemiBoldItalic.woff2") format('woff2'), url("../fonts/Raleway-SemiBoldItalic.woff") format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-Thin.woff2") format('woff2'), url("../fonts/Raleway-Thin.woff") format('woff');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url("../fonts/Raleway-ThinItalic.woff2") format('woff2'), url("../fonts/Raleway-ThinItalic.woff") format('woff');
+        font-weight: 100;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'BigNoodleTitling';
+        src: url("../fonts/BigNoodleTitling-Oblique.woff2") format('woff2'), url("../fonts/BigNoodleTitling-Oblique.woff") format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'BigNoodleTitling';
+        src: url("../fonts/BigNoodleTitling.woff2") format('woff2'), url("../fonts/BigNoodleTitling.woff") format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Playball';
+        src: url("../fonts/Playball-Regular.woff2") format('woff2'), url("../fonts/Playball-Regular.woff") format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    /*GLOBAL-CSS-STARTS-HERE*/
+    
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway';
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+    
+    a,
+    a:hover {
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .container {
+        max-width: 1176px;
+        margin: 0 auto;
+    }
+    
+    ul,
+    ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    /*GLOBAL-CSS-ENDS-HERE*/
+    
+    header {
+        min-height: 103px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(222, 222, 222, 1) 100%);
+        border: 1px solid #adadad;
+        position: relative;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    nav {
+        background: linear-gradient( 180deg, rgba(255, 255, 255, 1) 0%, rgba(222, 222, 222, 1) 100%);
+        position: relative;
+        z-index: 9;
+    }
+    
+    nav ul li a {
+        font-family: 'BigNoodleTitling';
+        font-size: 28px;
+        line-height: 34px;
+        color: #3d3d3d;
+        padding: 35px 0 34px 0px;
+        border-left: 1px solid #adadad;
+        border-right: 1px solid #adadad;
+        text-align: center;
+        width: 137px;
+        transition: 0.3s all ease;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    nav ul li a:hover {
+        color: #fff;
+    }
+    
+    nav ul li a::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        position: absolute;
+        transition: 0.3s all ease;
+        z-index: -1;
+        transform-origin: bottom;
+        transform: scaleY(0);
+        transition-property: transform;
+    }
+    
+    nav ul li a:hover::after {
+        transform-origin: top;
+        transform: scaleY(1);
+    }
+    
+    nav ul li:nth-child(7) a:hover {
+        color: #000;
+    }
+    
+    nav ul li:nth-child(7) a {
+        width: 314px;
+        padding: 12px 0 11px;
+        border: 1px solid #000;
+        background-color: #000;
+        margin-left: 30px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 31px;
+        border-radius: 10px;
+        color: #fff;
+        transition: 0.3s all ease;
+        z-index: 1;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    nav ul li:nth-child(7) a::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        position: absolute;
+        transition: 0.3s all ease;
+        z-index: -1;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition-property: transform;
+    }
+    
+    nav ul li:nth-child(7) a:hover::after {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+    
+    nav ul li:nth-child(7) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img {
+        width: 100%;
+    }
+    
+    header .logo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 1;
+        transform: translateX(-50%);
+    }
+    
+    .banner {
+        background-image: url("../images/iStock-660311458-copy-21.png");
+        background-position: 100% 33.5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 482px 0 70px;
+        position: relative;
+    }
+    
+    .banner::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(85deg, rgba(246, 97, 28, 1) 16%, rgba(245, 59, 58, 1) 68%, rgba(251, 50, 90, 1) 99%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+    }
+    
+    .banner .banner-inner {
+        max-width: 928px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .banner h3 {
+        font-size: 94px;
+        line-height: 100px;
+        color: #fff;
+        font-family: 'BigNoodleTitling';
+        margin-bottom: 43px;
+        font-weight: 400;
+    }
+    
+    .banner a {
+        font-size: 27px;
+        line-height: 33px;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    .banner .banner-inner a {
+        margin-left: 26px;
+    }
+    
+    .banner .banner-inner a i {
+        font-size: 25px;
+        color: #fff;
+        margin-right: 2px;
+    }
+    
+    .banner .banner-inner .yup {
+        margin-left: 0;
+    }
+    
+    .banner .banner-inner .button1 {
+        width: 230px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #221f1f;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        transition: 0.3s all ease;
+    }
+    
+    .banner .banner-inner .button1:hover {
+        background-color: #fff;
+        color: #221f1f;
+    }
+    
+    .banner .banner-inner .button2 {
+        background-color: transparent;
+        border: 4px solid #fff;
+        transition: 0.3s all ease;
+    }
+    
+    .banner .banner-inner .button2:hover {
+        background-color: #fff;
+        color: #fc4e46;
+    }
+    
+    .banner .banner-inner .buttons {
+        display: flex;
+        max-width: 486px;
+        justify-content: space-between;
+        margin: 57px auto 0;
+    }
+    
+    .services {
+        padding: 63px 0 61px;
+    }
+    
+    .services h3:first-child {
+        font-size: 67px;
+        color: #303030;
+        font-family: 'BigNoodleTitling';
+        line-height: 73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 58px;
+        font-weight: 400;
+    }
+    
+    .services .box .image {
+        border: 2px solid #000;
+        border-radius: 65px;
+        max-width: 123px;
+        min-height: 123px;
+        padding-top: 22px;
+        margin: 0 auto;
+    }
+    
+    .services {
+        background-color: #f6f6f6;
+    }
+    
+    .services .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .services .container .box {
+        width: 378px;
+        padding: 44px 0 44px;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #c3c3c3;
+        margin-bottom: 19px;
+    }
+    
+    .services .container .box h4 {
+        font-size: 23px;
+        line-height: 29px;
+        font-weight: 400;
+        margin: 40px auto 38px;
+        max-width: 251px;
+        color: #221f1f;
+        font-weight: 500;
+    }
+    
+    .services .container .box p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 309px;
+        margin: 0 auto;
+        color: #221f1f;
+        font-weight: 500;
+    }
+    
+    .services .container .box a {
+        width: 173px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff5434;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 700;
+        margin: 43px auto 0;
+    }
+    
+    .services .container .box:nth-child(5) p {
+        max-width: 322px;
+        margin-bottom: 65px;
+    }
+    
+    .services .container .box:nth-child(3) h4 {
+        max-width: 288px;
+    }
+    
+    .services .container .box:nth-child(5) h4 {
+        max-width: 212px;
+    }
+    
+    .services .container .box:nth-child(6) h4 {
+        max-width: 184px;
+    }
+    
+    .services .container .box:nth-child(6) p {
+        max-width: 322px;
+        margin-bottom: 65px;
+    }
+    
+    .offer {
+        background-color: #000;
+        padding: 22.5px 0;
+    }
+    
+    .heading {
+        max-width: 208px !important;
+    }
+    
+    .offer h3 {
+        font-family: 'BigNoodleTitling';
+        font-size: 43px;
+        line-height: 49px;
+        color: #ff2a66;
+        max-width: 308px;
+        margin: 0 auto;
+    }
+    
+    .offer span {
+        color: #fff;
+    }
+    
+    .booking {
+        padding: 92px 0 241px;
+        background-image: url("../images/Layer.png");
+        background-position: bottom;
+        position: relative;
+    }
+    
+    .booking h3 {
+        font-family: 'BigNoodleTitling';
+        font-size: 67px;
+        line-height: 73px;
+        color: #000;
+        max-width: 816px;
+        margin: 0 auto 48px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .booking h3 span {
+        color: #ff2a66;
+    }
+    
+    .booking p {
+        color: #000;
+        font-size: 28px;
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 34px;
+    }
+    
+    .booking .second {
+        margin: 57px auto 41px;
+        font-weight: 700;
+    }
+    
+    .booking a {
+        width: 504px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: #fff;
+        line-height: 31px;
+        background-color: #ff2a66;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+    
+    .ally {
+        background-color: #f6f6f6;
+        padding-bottom: 82px;
+    }
+    
+    .ally .noun {
+        padding: 84px 131px 79px 136px;
+        border: 10px solid #000;
+        background-color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1175px;
+        position: relative;
+        margin-top: -14%;
+    }
+    
+    .ally .noun h2 {
+        font-size: 200px;
+        line-height: 206px;
+        font-family: 'BigNoodleTitling';
+        font-weight: 400;
+        margin-right: 80px;
+        letter-spacing: -6px;
+    }
+    
+    .ally .noun p {
+        font-size: 35px;
+        line-height: 41px;
+        color: #282828;
+        max-width: 565px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ally .noun span {
+        font-family: 'Playball';
+        font-size: 50px;
+        line-height: 56px;
+    }
+    
+    .ally .container h3 {
+        font-size: 67px;
+        line-height: 73px;
+        font-weight: 500;
+        font-family: 'BigNoodleTitling';
+        margin-top: 73px;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    
+    .ally .container .check {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .ally .container .list {
+        display: flex;
+        max-width: 1014px;
+        margin: 45px auto 71px;
+    }
+    
+    .list ul li {
+        margin-top: 26px;
+    }
+    
+    .list ul li i {
+        color: #ff346d;
+        font-size: 25px;
+        font-weight: 400;
+        margin-right: 11px;
+    }
+    
+    .list ul li a {
+        font-size: 19px;
+        line-height: 25px;
+        color: #313131;
+    }
+    
+    .list ul:nth-child(3) {
+        margin-left: 68px;
+    }
+    
+    .list ul:nth-child(2) {
+        margin-left: 46px;
+    }
+    
+    .ally .container img {
+        width: 100%;
+    }
+    
+    .demo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+    }
+    
+    .question {
+        background-image: url("../images/iStock-911294484.png");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 133px 0 40px;
+    }
+    
+    .question::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(85deg, rgba(246, 97, 28, 1) 16%, rgba(245, 59, 58, 1) 68%, rgba(251, 50, 90, 1) 99%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+    }
+    
+    .question .container {
+        position: relative;
+        z-index: 5;
+    }
+    
+    .question .container h2 {
+        font-family: 'BigNoodleTitling';
+        color: #fff;
+        font-size: 67px;
+        line-height: 73px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0px auto 37px;
+    }
+    
+    .question .container p {
+        color: #000;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        text-align: center;
+        max-width: 613px;
+        margin: 0 auto;
+    }
+    
+    .question .container .form {
+        margin: 52px auto 0;
+        width: 66.6%;
+    }
+    
+    .form .form-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+    
+    .form .form-inner input {
+        width: 381px;
+        height: 56px;
+        border-radius: 10px;
+        border: none;
+        font-size: 19px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #424242;
+        font-family: 'Raleway';
+        padding: 18px 10px 17px 20px;
+        margin-bottom: 23px;
+        outline: none;
+    }
+    
+    .form textarea {
+        width: 100%;
+        height: 176px;
+        border-radius: 10px;
+        border: none;
+        font-size: 19px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #424242;
+        font-family: 'Raleway';
+        padding: 18px 20px 17px 20px;
+        margin-bottom: 41px;
+        resize: none;
+        outline: none;
+    }
+    
+    .form a {
+        width: 285px;
+        height: 89px;
+        margin: 0 auto;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 53px;
+        font-family: 'BigNoodleTitling';
+        line-height: 59px;
+        font-weight: 400;
+        border-radius: 10px;
+    }
+    
+    footer {
+        background-color: #444242;
+        padding: 70px 0 0px;
+    }
+    
+    footer .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 59px 0 63px;
+    }
+    
+    footer .container .box {
+        text-align: center;
+    }
+    
+    footer .container .box {
+        max-width: 207px;
+        margin-bottom: 74px;
+    }
+    
+    footer .container .box i {
+        font-size: 35px;
+        color: #fff;
+    }
+    
+    footer .container .box h3 {
+        font-size: 15px;
+        color: #fff;
+        line-height: 21px;
+        font-weight: 700;
+        margin: 20px 0 7px;
+    }
+    
+    footer .container .box a {
+        font-size: 20px;
+        line-height: 26px;
+        color: #fff;
+    }
+    
+    @media screen and (max-width:1366px) {
+        nav ul li:nth-child(7) a {
+            width: 197px;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            width: 127px;
+        }
+        .services .container {
+            justify-content: space-evenly;
+        }
+        .ally .noun {
+            padding: 84px 10px 79px 84px;
+        }
+        .ally .noun h2 {
+            margin-right: 43px;
+        }
+        .ally .noun p {
+            margin-top: 42px;
+        }
+        .form .form-inner input {
+            width: 319px;
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+        nav ul li a {
+            width: 120px;
+        }
+        .list ul li a {
+            font-size: 14px;
+        }
+        .ally .container .list {
+            padding: 0px 80px;
+        }
+    }
+    
+    @media (max-width:991px) {
+        nav ul li a {
+            width: 95px;
+            font-size: 19px;
+        }
+        nav ul li:nth-child(7) a {
+            width: 148px;
+            font-size: 19px;
+        }
+        .banner h3 {
+            font-size: 64px;
+            text-align: center;
+        }
+        .banner .banner-inner {
+            margin: 0 20px;
+        }
+        .banner a {
+            font-size: 19px;
+        }
+        header .logo {
+            left: 23.3%;
+        }
+        .ally .noun p {
+            font-size: 20px;
+            line-height: 26px;
+            max-width: 416px;
+            margin-top: 25px;
+        }
+        .ally .noun h2 {
+            font-size: 150px;
+            line-height: 156px;
+        }
+        .ally .noun span {
+            font-size: 37px;
+        }
+        .list ul li a {
+            font-size: 14px;
+        }
+        .list ul li i {
+            margin-right: 3px;
+            font-size: 14px;
+        }
+        .form .form-inner input {
+            width: 232px;
+            font-size: 14px;
+        }
+        .form textarea {
+            font-size: 14px
+        }
+        footer .container .box a {
+            font-size: 15px;
+            line-height: 21px;
+        }
+        footer .container {
+            padding: 0 10px 0 10px;
+        }
+        .ally .container .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .list ul:nth-child(3) {
+            margin: 0 auto;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        nav .menu {
+            display: block;
+            height: 50px;
+            width: 50px;
+            position: relative;
+            top: 24px;
+            margin-left: auto;
+        }
+        .menu span {
+            width: 17px;
+            height: 3px;
+            background-color: #000;
+            position: absolute;
+            top: 19px;
+            right: 7px;
+            transform: translate(-50%, -50%);
+            transition: 0.3s all ease;
+        }
+        header .logo {
+            max-width: 189px;
+            top: 52%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .menu span:first-child {
+            top: 26px;
+        }
+        .menu span:last-child {
+            top: 33px;
+        }
+        .menu span.change {
+            transform: rotate(45deg);
+            top: 27px;
+            right: 14px;
+            transition: 0.3s all ease;
+        }
+        .menu span.change:last-child {
+            transform: rotate(-45deg);
+        }
+        nav ul {
+            display: none;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 100%;
+            top: 102px;
+            left: 0px;
+            text-align: center;
+        }
+        nav {
+            min-height: 100px;
+        }
+        nav ul li a {
+            width: 100%;
+            border: none;
+        }
+        nav ul li:nth-child(7) {
+            padding-bottom: 10px;
+        }
+        nav ul li:nth-child(7) a {
+            margin-left: 0px;
+            padding: 20px 0 20px 0px;
+        }
+        .banner a {
+            font-size: 14px;
+        }
+        .booking h3 {
+            font-size: 55px;
+            line-height: 61px;
+        }
+        .booking a {
+            width: 440px;
+        }
+        .ally .noun {
+            padding: 84px 10px 79px 57px;
+        }
+        .ally .noun h2 {
+            font-size: 119px;
+            line-height: 125px;
+        }
+        .ally .noun span {
+            line-height: 43px;
+            font-size: 28px;
+        }
+        .ally .noun p {
+            max-width: 360px;
+        }
+        .ally .container h3 {
+            font-size: 57px;
+        }
+        .ally .container .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .list ul:nth-child(3) {
+            margin: 0 auto;
+        }
+        .form .form-inner input {
+            width: 100%;
+        }
+        .form a {
+            width: 250px;
+            height: 68px;
+            font-size: 41px;
+        }
+        footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer nav {
+            display: none;
+        }
+        .list ul:nth-child(3) {
+            text-align: center;
+        }
+        .list ul:nth-child(2) {
+            text-align: center;
+        }
+        .list ul {
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width:640px) {
+        .banner {
+            padding: 272px 0 70px;
+        }
+        .banner h3 {
+            font-size: 55px;
+            line-height: 61px;
+        }
+        .banner .banner-inner a i {
+            font-size: 17px;
+            margin-right: 0px;
+        }
+        .banner .banner-inner a {
+            margin-left: 0px;
+        }
+        .banner .banner-inner .button1 {
+            width: 176px;
+            height: 47px;
+            font-size: 15px;
+        }
+        .services h3:first-child {
+            font-size: 48px;
+        }
+        .offer h3 {
+            font-size: 37px;
+        }
+        .booking h3 {
+            line-height: 50px;
+            font-size: 38px;
+        }
+        .ally .noun {
+            padding: 83px 10px 79px 17px;
+        }
+        .ally .noun h2 {
+            font-size: 96px;
+            line-height: 102px;
+            margin-right: 17px;
+        }
+        .ally .noun p {
+            max-width: 256px;
+            font-size: 14px;
+            line-height: 26px;
+        }
+        .ally .noun span {
+            line-height: 27px;
+            font-size: 21px;
+        }
+        .booking p {
+            font-size: 20px;
+        }
+        .booking p {
+            font-size: 18px;
+        }
+        .booking a {
+            width: 289px;
+            height: 54px;
+            font-size: 15px;
+        }
+        .offer h3 {
+            font-size: 30px;
+            left: 50%;
+            transform: translateX(21%);
+        }
+        .ally .container h3 {
+            font-size: 37px;
+            line-height: 43px;
+        }
+        .ally .container .check {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        .list ul {
+            margin: 0;
+        }
+        .list ul:nth-child(2) {
+            margin: 0;
+        }
+        .list ul:nth-child(3) {
+            margin: 0;
+        }
+        .ally .container .list {
+            flex-direction: column;
+            align-items: center;
+        }
+        .question .container h2 {
+            font-size: 40px;
+            line-height: 47px;
+        }
+        .question .container p {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .banner h3 {
+            font-size: 42px;
+            line-height: 48px;
+        }
+        .banner .banner-inner .button1 {
+            width: 117px;
+            height: 39px;
+            font-size: 14px;
+        }
+        .services h3:first-child {
+            font-size: 38px;
+        }
+        .offer h3 {
+            font-size: 28px;
+            transform: none;
+            margin: 0 auto;
+            max-width: 197px;
+        }
+        .heading {
+            max-width: 130px !important;
+        }
+        .ally .container .list {
+            padding: 0px 23px;
+        }
+        .form a {
+            width: 169px;
+            height: 58px;
+            font-size: 34px;
+        }
+        .question .container p {
+            margin: 0 10px;
+        }
+        .ally .noun h2 {
+            font-size: 55px;
+            line-height: 61px;
+            margin-right: 12px;
+        }
+        .ally .noun {
+            padding: 83px 0px 79px 1px;
+        }
+        .ally .noun p {
+            max-width: 223px;
+            font-size: 14px;
+            line-height: 26px;
+            margin-top: 0px;
+        }
+        .ally .container h3 {
+            font-size: 27px;
+            line-height: 33px;
+        }
+        .ally .container .list {
+            margin: 34px auto 55px;
+        }
+        .booking p {
+            font-size: 14px;
+        }
+        .booking h3 {
+            font-size: 30px;
+        }
+        .services .container .box {
+            width: 94%;
+        }
+    }
